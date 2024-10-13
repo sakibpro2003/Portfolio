@@ -10,8 +10,8 @@ const Banner = () => {
             className=" rounded-lg shadow-4xl"
           />
           <div>
-            <h1 className="text-5xl font-bold">Hey!</h1>
-            <h1 className="text-5xl font-bold">I&apos;m Sakib Prodhan</h1>
+            <h1 className="text-5xl font-bold text-[#584267]">Hey!</h1>
+            <h1 className="text-5xl text-[#584267] font-bold">I&apos;m Sakib Prodhan</h1>
             <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
