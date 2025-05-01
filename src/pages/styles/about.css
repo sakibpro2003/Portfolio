@@ -1,3 +1,5 @@
+/* @import "../../../data/styles.css"; */
+
 .about-logo-container {
 	display: flex;
 	justify-content: left;
@@ -41,9 +43,12 @@
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
+	align-items: center; /* Center content horizontally */
 }
 
 .about-image-container {
+	display: flex;
+	justify-content: center;
 	width: 370px;
 }
 
@@ -53,11 +58,15 @@
 	width: 100%;
 	border-radius: 10%;
 	transform: rotate(3deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .about-image-wrapper img {
 	display: block;
-	width: 100%;
+	border-radius: 40px;
+	width: 80%;
 }
 
 .about-socials {
@@ -69,6 +78,7 @@
 	display: none;
 }
 
+/* Tablet and small desktop */
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;
@@ -85,6 +95,7 @@
 	.about-left-side {
 		flex-basis: 100%;
 		order: 1;
+		align-items: center;
 	}
 
 	.about-right-side {
@@ -94,6 +105,8 @@
 
 	.about-image-container {
 		padding-bottom: 40px;
+		width: 100%;
+		justify-content: center;
 	}
 
 	.about-socials {
@@ -106,12 +119,19 @@
 	}
 }
 
+/* Mobile */
 @media (max-width: 600px) {
 	.about-container {
-		padding-top: 60px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-image-wrapper {
+		transform: rotate(0deg); 
 	}
 
 	.about-image-container {
-		width: 80%;
+		width: 100%;
+		justify-content: center;
 	}
 }

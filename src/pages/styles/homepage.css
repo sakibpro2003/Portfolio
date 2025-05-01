@@ -105,6 +105,7 @@
 
 .homepage-projects {
 	display: grid;
+	/* gap: 30px; */
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	justify-items: center;
   }
@@ -120,10 +121,17 @@
 	padding-bottom: 5px;
 }
 
+
+
 .homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
+	/* display: ; */
+	/* background-color: aqua; */
+	/* justify-content: center;
+	align-items: center; */
+	
+	/* box-sizing: border-box; */
 }
+
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -174,9 +182,10 @@
 		flex-basis: auto;
 	}
 
-	.homepage-works {
+	/* .homepage-works {
+		background-color: red;
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
-	}
+	} */
 }

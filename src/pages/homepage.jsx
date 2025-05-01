@@ -15,7 +15,6 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -84,6 +83,7 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
+						<p className="bg-red-500">sakib</p>
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
@@ -175,9 +175,7 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						{/* <div className="homepage-projects">
-							<AllProjects />
-						</div> */}
+						
 						<div className="homepage-projects">
 							<ProjectCard
 								image="https://via.placeholder.com/300"
@@ -196,7 +194,9 @@ const Homepage = () => {
 							/>
 						</div>
 
-						<div className="homepage-after-title">
+						{/* TODO: add article ltter */}
+
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -217,14 +217,21 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
-						</div>
+						</div> */}
 
-						<div className="page-footer">
+						{/* <div className="page-footer">
 							<Footer />
+						</div> */}
+
+						
+
+							<div className="homepage-works">
+								<Works />
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			
 		</React.Fragment>
 	);
 };
