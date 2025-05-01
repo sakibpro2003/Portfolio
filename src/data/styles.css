@@ -1,0 +1,14 @@
+:root {
+	/* ------- colors ------- */
+	--primary-color: #655181;
+	--secondary-color: #6B506F;
+	--tertiary-color: #acacb4;
+	--quaternary-color: #e4e4e7;
+	--link-color: #f1c420;
+	/* ---------------------- */
+
+	/* ------- fonts ------- */
+	--primary-font: "Heebo", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+	/* --------------------- */
+}
