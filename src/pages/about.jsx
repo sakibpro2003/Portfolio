@@ -33,15 +33,18 @@ const About = () => {
 				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
-						<div className="about-logo">
+						{/* <div className="about-logo">
 							<Logo width={46} />
-						</div>
+						</div> */}
 					</div>
 
 					<div className="about-container">
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
+									{INFO.about.name}
+								</div>
+								<div className="about-title">
 									{INFO.about.title}
 								</div>
 
@@ -62,10 +65,11 @@ const About = () => {
 								</div>
 
 								<div className="about-socials">
-									<Socials />
 								</div>
+
 							</div>
 						</div>
+									<Socials />
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>
@@ -80,5 +84,3 @@ const About = () => {
 };
 
 export default About;
-
-

@@ -10,7 +10,7 @@ const ProjectCard = ({ image, title, description, githubLink, detailsLink }) => 
         <p className="project-card-description">{description}</p>
         <div className="project-card-buttons">
           <a href={githubLink} className="project-card-button github-button">
-            GitHub
+            Live Preview
           </a>
           <a href={detailsLink} className="project-card-button details-button">
             Details

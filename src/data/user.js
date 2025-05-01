@@ -1,9 +1,9 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Reactfolio by Sakib",
+		name: "Sakib Prodhan",
+		email: "sakibprodhan2003@gmail.com",
+		// logo: "../logo.png",
 	},
 
 	socials: {
@@ -24,9 +24,10 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		name: "I'm Sakib Prodhan",
+		title:"A Software Engineer crafting fullstack web experiences with the MERN stack.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I'm Sakib Prodhan, a passionate Full-Stack MERN Developer and Software Engineer currently completing my graduation in Computer Science from the Bangladesh Army University of Science and Technology, Saidpur. With a keen interest in both front-end and back-end development, I specialize in creating dynamic, user-friendly applications. My expertise spans across JavaScript, React, Node.js, Express, and MongoDB, and I'm always eager to learn new technologies to stay ahead in the ever-evolving tech landscape. Alongside my technical skills, I am committed to building solutions that are not only functional but also aesthetically pleasing, ensuring an optimal user experience. I enjoy working in teams, collaborating with others, and solving complex problems to bring innovative ideas to life. When I'm not coding, you can find me exploring new trends in tech or engaging in activities that fuel my creativity.",
 	},
 
 	articles: {

@@ -1,13 +1,22 @@
-@import "../../../data/styles.css";
-.social,
-.email-wrapper {
+/* @import "../../../data/styles.css"; */
+
+.socials {
 	display: flex;
-	padding-bottom: 20px;
+	flex-wrap: wrap;  /* Allow items to wrap into the next line */
+	justify-content: flex-start; /* Align to the start of the container */
 }
+
+
 
 .social a,
 .email-wrapper a {
 	text-decoration: none;
+	display: flex;
+	align-items: center;  /* Align items in the center horizontally */
+	display: flex;
+	padding-bottom: 20px;
+	flex-direction: row;  /* Default to row for large screens */
+	align-items: center;  /* Center icons and text */
 }
 
 .social-icon {
@@ -16,21 +25,50 @@
 }
 
 .social-text {
+	margin-left: 10px;
 	color: var(--secondary-color);
-	padding-left: 30px;
-	margin-top: -20px;
+	margin-right: 2rem;
 	font-weight: 600;
 	font-size: 14px;
 }
 
-.email::before {
-	content: "";
-	display: block;
-	padding-top: 20px;
-	border-top: 3px solid #f4f4f5;
-	margin-top: 20px;
+
+/* Tablet and small desktop */
+@media (max-width: 1024px) {
+	/* .social {
+		flex-basis: 45%;
+		padding-bottom: 20px;
+	} */
+
+	.email-wrapper {
+		flex-basis: 100%;
+	}
+
+	.social-text {
+		font-size: 13px; /* Slightly smaller text on tablet */
+	}
 }
 
-.email-wrapper {
-	padding-top: 20px;
+/* Mobile */
+@media (max-width: 600px) {
+	.socials {
+		margin-top: 20px;
+		flex-direction: column;  /* Change to column on mobile */
+		align-items: center;  /* Center items in column */
+	}
+
+	
+
+	.email-wrapper {
+		width: 100%;  /* Email should also take full width */
+		justify-content: center;  /* Center email */
+	}
+
+	.social-text {
+		margin-left: 5px;
+		margin-right: 0px;
+		font-size: 14px;  /* Keep font size consistent on mobile */
+		padding-left: 0;  /* No space between icon and text */
+		text-align: center;  /* Center the text under the icon */
+	}
 }

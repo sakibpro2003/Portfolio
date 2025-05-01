@@ -1,38 +1,38 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-
 import "./styles/article.css";
 
-const Article = (props) => {
-	const { title, description, date, link } = props;
-
+const DivingIntoExpress = () => {
 	return (
 		<React.Fragment>
-			<div className="homepage-article">
-				<div className="homepage-article-content">
-					<div className="homepage-article-date">
-						|&nbsp;&nbsp;&nbsp;{date}
-					</div>
-					<div className="homepage-article-title">{title}</div>
-					<div className="homepage-article-description">
-						{description}
-					</div>
-					<div className="homepage-article-link">
-						<Link to={link}>
-							Read article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</Link>
-					</div>
+			<style>{`
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+			`}</style>
+
+			<div className="article-wrapper">
+				<div className="homepage-article-date">|&nbsp;&nbsp;&nbsp;27 April 2025</div>
+				<div className="homepage-article-title">Diving into Express.js</div>
+				<div className="homepage-article-description">
+					Just Finished the Basics and Ready for Real-World Projects! From setting up servers to building APIs and handling middleware, Express makes backend development smooth and efficient...
+				</div>
+				<div className="article-content">
+					<div className="paragraph">Content of article 1</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
 				</div>
 			</div>
 		</React.Fragment>
 	);
 };
 
-export default Article;
+export default DivingIntoExpress;

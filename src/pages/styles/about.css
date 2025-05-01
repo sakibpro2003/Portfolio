@@ -32,18 +32,24 @@
 }
 
 .about-title {
+	color: var(--primary-color);
+	font-size: 1.5rem;
+	font-weight: 400;
 	width: 100% !important;
 }
 
 .about-subtitle {
+	text-align: justify;
+	text-justify: inter-word;
 	width: 80% !important;
 }
 
 .about-left-side {
+	/* background-color: red; */
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
-	align-items: center; /* Center content horizontally */
+	align-items: center;
 }
 
 .about-image-container {
@@ -66,7 +72,7 @@
 .about-image-wrapper img {
 	display: block;
 	border-radius: 40px;
-	width: 80%;
+	width: 100%;
 }
 
 .about-socials {
@@ -127,7 +133,11 @@
 	}
 
 	.about-image-wrapper {
-		transform: rotate(0deg); 
+		transform: rotate(0deg);
+	}
+	.about-subtitle {
+		justify-content: center;
+		width: 100% !important; /* Ensure subtitle takes full width */
 	}
 
 	.about-image-container {

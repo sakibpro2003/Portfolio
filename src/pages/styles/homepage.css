@@ -8,29 +8,45 @@
 }
 
 @keyframes wave-animation {
-	0% { transform: rotate(0deg); }
-	10% { transform: rotate(14deg); }
-	20% { transform: rotate(-8deg); }
-	30% { transform: rotate(14deg); }
-	40% { transform: rotate(-4deg); }
-	50% { transform: rotate(10deg); }
-	60% { transform: rotate(0deg); }
-	100% { transform: rotate(0deg); }
-  }
-  
-  .wave {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	}
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.wave {
 	display: inline-block;
 	animation: wave-animation 2.5s infinite;
 	transform-origin: 70% 70%;
 	font-size: 4rem; /* Adjust as needed */
-  }
-  
+}
 
 .homepage-container {
 	padding-top: 25px;
 }
 
 .homepage-first-area {
+	margin-top: 5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -45,14 +61,15 @@
 .homepage-title {
 	width: 85% !important;
 }
-.designition{
+.designition {
 	width: 60%;
 	font-size: 2rem;
 	color: var(--link-color);
-
 }
 
 .homepage-subtitle {
+	text-align: justify;
+	text-justify: inter-word;
 	width: 85% !important;
 }
 
@@ -68,8 +85,10 @@
 
 .homepage-image-wrapper {
 	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
+	border-radius: 50%;
+	height: 98%;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4),
+	           
 }
 
 .homepage-image-wrapper img {
@@ -98,18 +117,14 @@
 	display: flex;
 }
 
-/* .homepage-projects {
-	flex-basis: 300px;
-	padding-top: 40px;
-} */
+
 
 .homepage-projects {
+	margin-top: 5rem;
 	display: grid;
-	/* gap: 30px; */
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	justify-items: center;
-  }
-  
+}
 
 .homepage-articles {
 	flex-basis: 900px;
@@ -123,18 +138,13 @@
 
 
 
-.homepage-works {
-	/* display: ; */
-	/* background-color: aqua; */
-	/* justify-content: center;
-	align-items: center; */
-	
-	/* box-sizing: border-box; */
-}
-
-
 @media (max-width: 1024px) {
+	.homepage-image-wrapper{
+		border-radius: 4%;
+		width: 80%;
+	}
 	.homepage-first-area {
+		margin-top: 1rem;
 		flex-direction: column;
 	}
 
