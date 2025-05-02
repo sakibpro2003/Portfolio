@@ -5,6 +5,7 @@ import "./styles/works.css";
 const Works = () => {
 	return (
 		<div className="works">
+			<h2 className="education-title">Education</h2>
 			<Card
 				icon={<FaGraduationCap />}
 				// title="Education"

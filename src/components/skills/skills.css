@@ -8,7 +8,6 @@
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
-    justify-items: center;
   }
   
   .skill-card {

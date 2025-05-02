@@ -62,7 +62,7 @@
 	width: 85% !important;
 }
 .designition {
-	width: 60%;
+	width: 100%;
 	font-size: 2rem;
 	color: var(--link-color);
 }
@@ -117,7 +117,13 @@
 	display: flex;
 }
 
-
+.featured-title{
+	text-align: center;
+	font-size: 1.6rem;
+	color: var(--primary-color);
+	font-weight: bolder;
+	margin-top: 5rem;
+}
 
 .homepage-projects {
 	margin-top: 5rem;
@@ -140,11 +146,11 @@
 
 @media (max-width: 1024px) {
 	.homepage-image-wrapper{
-		border-radius: 4%;
-		width: 80%;
+		border-radius: 1%;
+		/* width: 80%; */
 	}
 	.homepage-first-area {
-		margin-top: 1rem;
+		margin-top: 0.5rem;
 		flex-direction: column;
 	}
 
@@ -158,26 +164,19 @@
 
 	.homepage-title {
 		width: 100% !important;
-		margin-top: 20px;
-		order: 2;
+		/* margin-top: 20px; */
+		/* order: 1; */
 	}
 
 	.homepage-subtitle {
 		width: 100% !important;
 		margin-top: 10px;
-		order: 3;
+		/* order: 2; */
 	}
 
 	.homepage-first-area-right-side {
 		width: 100%;
-		order: 1;
-	}
-
-	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
-		margin-left: 10px;
-		order: 1;
+		order: 2;
 	}
 
 	.homepage-after-title {
@@ -191,11 +190,4 @@
 	.homepage-articles {
 		flex-basis: auto;
 	}
-
-	/* .homepage-works {
-		background-color: red;
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
-	} */
 }

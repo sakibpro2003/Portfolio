@@ -1,56 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
-
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
+	faFacebook,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
 import "./styles/homepage.css";
 import ProjectCard from "../components/projects/projectCard";
-import Footer from "../components/common/footer";
 import Skills from "../components/skills/skills";
+import Footer from "../components/common/footer";
 
 const Homepage = () => {
-	// const [logoSize, setLogoSize] = useState(80);
-	// const [oldLogoSize, setOldLogoSize] = useState(80);
-
-	// useEffect(() => {
-	// 	window.scrollTo(0, 0);
-	// }, []);
-
-	// useEffect(() => {
-	// 	const handleScroll = () => {
-	// 		// let scroll = Math.round(window.pageYOffset, 2);
-
-	// 		// let newLogoSize = 80 - (scroll * 4) / 10;
-
-	// 		// if (newLogoSize < oldLogoSize) {
-	// 		// 	if (newLogoSize > 40) {
-	// 		// 		setLogoSize(newLogoSize);
-	// 		// 		setOldLogoSize(newLogoSize);
-	// 		// 		setStayLogo(false);
-	// 		// 	} else {
-	// 		// 		setStayLogo(true);
-	// 		// 	}
-	// 		// } else {
-	// 		// 	setLogoSize(newLogoSize);
-	// 		// 	setStayLogo(false);
-	// 		// }
-	// 	};
-
-	// 	window.addEventListener("scroll", handleScroll);
-	// 	return () => window.removeEventListener("scroll", handleScroll);
-	// }, [logoSize, oldLogoSize]);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -126,15 +94,26 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
+							<a
+								href={INFO.socials.facebook}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faFacebook}
+									className="homepage-social-icon"
+								/>
+							</a>
+							
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -157,6 +136,7 @@ const Homepage = () => {
 							</a>
 						</div>
 
+							<h3 className="featured-title">Featured Project</h3>
 						<div className="homepage-projects">
 							<ProjectCard
 								image="https://i.ibb.co.com/ycfWy7G2/Screenshot-2025-05-01-170431.png"
@@ -177,36 +157,6 @@ const Homepage = () => {
 
 
 
-						{/* TODO: add article ltter */}
-
-						{/* <div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
-							</div>
-						</div> */}
-
-						{/* <div className="page-footer">
-							<Footer />
-						</div> */}
-
-
 						<div className="homepage-works">
 							<Works />
 						</div>
@@ -217,6 +167,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+				{/* <Contact></Contact> */}
 				<Footer></Footer>
 		</React.Fragment>
 	);

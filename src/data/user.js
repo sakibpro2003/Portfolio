@@ -8,11 +8,11 @@ const INFO = {
 
 	socials: {
 		//TODO: linkedIN
-		twitter: "https://twitter.com/",
+		twitter: "https://twitter.com/sakibprodhan00",
 		github: "https://github.com/sakibpro2003",
-		linkedin: "https://linkedin.com/",
+		linkedin: "https://www.linkedin.com/in/sakib-prodhan-077598315/",
 		instagram: "https://instagram.com/sakibprodhan_00",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/sakib.prodhan.3994",
 	},
 
 	homepage: {

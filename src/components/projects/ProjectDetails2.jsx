@@ -22,10 +22,10 @@ const ProjectDetails2 = () => {
 					/>
 				))}
 			</div>
-			<h1 className="project-title">Express.js Project Showcase</h1>
+			<h1 className="project-title">MediMart — Full-Stack E-Commerce Web App</h1>
 			<p className="project-description">
-				This project demonstrates how to build backend APIs using Express.js. It includes user authentication, database integration with MongoDB, and RESTful route handling.
-			</p>
+	MediMart 💊 is a full-stack online medicine e-commerce application built with modern web technologies. It provides a seamless experience for users to browse, search, and purchase medicines with secure authentication and smooth checkout via ShurjoPay. The platform includes both user and admin dashboards, enabling customers to track orders while allowing admins to manage inventory, orders, and users. The backend is built using Node.js, Express.js, MongoDB, and JWT, while the frontend uses Next.js 15.1.1 with TypeScript, Tailwind CSS, and NextAuth.js for secure login and session management.
+</p>
 
 			
 
