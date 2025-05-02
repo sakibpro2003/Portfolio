@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-// import bicycle from "../../public/biCycle.png"
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,15 +18,15 @@ import SEO from "../data/seo";
 import "./styles/homepage.css";
 import ProjectCard from "../components/projects/projectCard";
 import Footer from "../components/common/footer";
+import Skills from "../components/skills/skills";
 
 const Homepage = () => {
-	// const [stayLogo, setStayLogo] = useState(false);
-	const [logoSize, setLogoSize] = useState(80);
-	const [oldLogoSize, setOldLogoSize] = useState(80);
+	// const [logoSize, setLogoSize] = useState(80);
+	// const [oldLogoSize, setOldLogoSize] = useState(80);
 
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
+	// useEffect(() => {
+	// 	window.scrollTo(0, 0);
+	// }, []);
 
 	// useEffect(() => {
 	// 	const handleScroll = () => {
@@ -176,6 +175,8 @@ const Homepage = () => {
 							/>
 						</div>
 
+
+
 						{/* TODO: add article ltter */}
 
 						{/* <div className="homepage-after-title">
@@ -205,8 +206,13 @@ const Homepage = () => {
 							<Footer />
 						</div> */}
 
+
 						<div className="homepage-works">
 							<Works />
+						</div>
+
+						<div>
+							<Skills></Skills>
 						</div>
 					</div>
 				</div>

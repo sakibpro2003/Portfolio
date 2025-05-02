@@ -8,11 +8,11 @@ import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
-
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 import ProjectDetails1 from "./components/projects/ProjectDetails1";
 import ProjectDetails2 from "./components/projects/ProjectDetails2";
+import Resume from "./pages/resume";
 
 function App() {
 	useEffect(() => {

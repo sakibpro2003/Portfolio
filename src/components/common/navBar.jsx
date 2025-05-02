@@ -41,12 +41,21 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
+									active === "resume"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link target="_blank" to="https://drive.google.com/file/d/1tgnponWnjt-l5_JWsxMmXOpeh1p8UvnK/view?usp=drive_link">Resume</Link>
+							</li>
+							<li
+								className={
 									active === "articles"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/articles">Articles</Link>
+								<Link to="/articles">Blogs</Link>
 							</li>
 							<li
 								className={
