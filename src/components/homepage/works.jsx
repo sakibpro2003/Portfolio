@@ -5,7 +5,7 @@ import "./styles/works.css";
 const Works = () => {
 	return (
 		<div className="works">
-			<h2 className="education-title">Education</h2>
+			<h2 className="education-title">Qualification & Participation</h2>
 			<Card
 				icon={<FaGraduationCap />}
 				// title="Education"
@@ -15,7 +15,7 @@ const Works = () => {
 							<img
 								src={"https://i.ibb.co.com/xq6ryn06/graduation-logo-removebg-preview.jpg"}
 								alt="GraduationCap"
-								className="work-image "
+								className="work-image"
 							/>
 							<div className="work-title">Graduation (Final Year)</div>
 							<div className="work-subtitle">
@@ -42,11 +42,11 @@ const Works = () => {
 								alt="twitter"
 								className="work-image"
 							/>
-							<div className="work-title">FullStack Development</div>
+							<div className="work-title">Programing Lead</div>
 							<div className="work-subtitle">
-								Club
+								BAUST Robotics Club
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2024 - Present</div>
 						</div>
 						<div className="work">
 							<img
@@ -54,11 +54,11 @@ const Works = () => {
 								alt="twitter"
 								className="work-image"
 							/>
-							<div className="work-title">FullStack Development</div>
+							<div className="work-title">Mentor</div>
 							<div className="work-subtitle">
-								Club
+								BAUST Programing Club
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2025 - Present</div>
 						</div>
 					</div>
 				}

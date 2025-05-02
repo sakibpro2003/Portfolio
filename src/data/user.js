@@ -25,7 +25,7 @@ const INFO = {
 
 	about: {
 		name: "I'm Sakib Prodhan",
-		title:"A Software Engineer crafting fullstack web experiences with the MERN stack.",
+		title:"A Software Engineer crafting fullstack web experiences with the MERN stack",
 		description:
 			"I'm Sakib Prodhan, a passionate Full-Stack MERN Developer and Software Engineer currently completing my graduation in Computer Science from the Bangladesh Army University of Science and Technology, Saidpur. With a keen interest in both front-end and back-end development, I specialize in creating dynamic, user-friendly applications. My expertise spans across JavaScript, React, Node.js, Express, and MongoDB, and I'm always eager to learn new technologies to stay ahead in the ever-evolving tech landscape. Alongside my technical skills, I am committed to building solutions that are not only functional but also aesthetically pleasing, ensuring an optimal user experience. I enjoy working in teams, collaborating with others, and solving complex problems to bring innovative ideas to life. When I'm not coding, you can find me exploring new trends in tech or engaging in activities that fuel my creativity.",
 	},

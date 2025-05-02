@@ -2,6 +2,10 @@
     margin-top: 4rem;
     text-align: center;
   }
+
+  .mern-section-title{
+    color: var(--primary-color);
+  }
   
   .skills-grid {
     display: grid;
@@ -101,16 +105,17 @@
   
   .soft-skill {
     padding: 0.5rem 1rem;
-    background-color: #e0f2fe;
-    color: #0369a1;
-    font-weight: 500;
+    background-color: rgb(243, 204, 243);
+    color: var(--primary-color);
+    font-weight: 550;
     border-radius: 20px;
     border: 1px solid #bae6fd;
     transition: background 0.3s ease;
   }
   
   .soft-skill:hover {
-    background-color: #bae6fd;
+    background-color: var(--primary-color);
+    color: white;
     cursor: default;
   }
   

@@ -89,7 +89,7 @@ const Skills = () => {
 
   return (
     <div className="skill-component" id="skills">
-      <h2 data-aos="fade-up">MERN Stack</h2>
+      <h2 className="mern-section-title" data-aos="fade-up">MERN Stack</h2>
       <div className="skills-grid" data-aos="fade-up" data-aos-delay="100">
         {mernSkills.map((skill) => (
           <div className="skill-card" key={skill.name}>
@@ -99,7 +99,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="tools-title" data-aos="fade-up" data-aos-delay="200">
+      <h2 className="tools-title mern-section-title" data-aos="fade-up" data-aos-delay="200">
         Tools & UI Libraries
       </h2>
       <div className="badges-grid" data-aos="fade-up" data-aos-delay="300">
@@ -111,7 +111,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="soft-title" data-aos="fade-up" data-aos-delay="400">
+      <h2 className="soft-title mern-section-title" data-aos="fade-up" data-aos-delay="400">
         Soft Skills
       </h2>
       <div className="soft-grid" data-aos="fade-up" data-aos-delay="500">

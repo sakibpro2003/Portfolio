@@ -19,11 +19,7 @@ import Skills from "../components/skills/skills";
 import Footer from "../components/common/footer";
 
 const Homepage = () => {
-
 	const currentSEO = SEO.find((item) => item.page === "home");
-
-
-
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -38,7 +34,6 @@ const Homepage = () => {
 			<NavBar active="home" />
 			<div className="page-content">
 				<div className="content-wrapper">
-
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
@@ -113,7 +108,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
+
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -136,7 +131,7 @@ const Homepage = () => {
 							</a>
 						</div>
 
-							<h3 className="featured-title">Featured Project</h3>
+						<h3 className="featured-title">Featured Project</h3>
 						<div className="homepage-projects">
 							<ProjectCard
 								image="https://i.ibb.co.com/ycfWy7G2/Screenshot-2025-05-01-170431.png"
@@ -155,8 +150,6 @@ const Homepage = () => {
 							/>
 						</div>
 
-
-
 						<div className="homepage-works">
 							<Works />
 						</div>
@@ -167,8 +160,8 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
-				{/* <Contact></Contact> */}
-				<Footer></Footer>
+			{/* <Contact></Contact> */}
+			<Footer></Footer>
 		</React.Fragment>
 	);
 };
