@@ -16,7 +16,7 @@ const SEO = [
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A chronological collection of my long-form thoughts on programming, leadership, product design, software architecture, developer growth, and the evolving world of technology. These reflections capture lessons learned, practical insights, and the principles that guide how I build, lead, and learn. From debugging production issues to designing scalable systems, managing teams, and exploring user-centered design, each post represents a step in my continuous learning journey. I also share opinions on industry trends, open-source contributions, and the human side of engineering—like mentorship, communication, and decision-making under pressure.",
 		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
 	},
 

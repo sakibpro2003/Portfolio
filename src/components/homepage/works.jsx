@@ -1,6 +1,3 @@
-import React from "react";
-// import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-// import gradLogo from "../../../public/graduation-logo.png"
 import Card from "../common/card";
 import { FaGraduationCap } from "react-icons/fa";
 import "./styles/works.css";

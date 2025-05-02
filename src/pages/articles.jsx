@@ -33,18 +33,18 @@ const Articles = () => {
 			<div className="page-content">
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container">
+					{/* <div className="articles-logo-container">
 						<div className="articles-logo">
 							<Logo width={46} />
 						</div>
-					</div>
+					</div> */}
 
 					<div className="articles-main-container">
-						<div className="title articles-title">
+						<div className="articles-title">
 							{INFO.articles.title}
 						</div>
 
-						<div className="subtitle articles-subtitle">
+						<div className="articles-subtitle">
 							{INFO.articles.description}
 						</div>
 

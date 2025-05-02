@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
+import ProjectCard from "../components/projects/projectCard";
 
 const Projects = () => {
 	useEffect(() => {
@@ -32,18 +33,17 @@ const Projects = () => {
 			<div className="page-content">
 				<NavBar active="projects" />
 				<div className="content-wrapper">
-					<div className="projects-logo-container">
+					{/* <div className="projects-logo-container">
 						<div className="projects-logo">
 							<Logo width={46} />
 						</div>
-					</div>
+					</div> */}
 					<div className="projects-container">
-						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+						<div className="projects-title">
+							Projects
 						</div>
 
-						<div className="subtitle projects-subtitle">
+						<div className="projects-subtitle">
 							I've worked on a variety of projects over the years
 							and I'm proud of the progress I've made. Many of
 							these projects are open-source and available for
@@ -56,9 +56,27 @@ const Projects = () => {
 							feedback.
 						</div>
 
-						<div className="projects-list">
-							<AllProjects />
+						<div className="homepage-projects">
+							<ProjectCard
+								image="https://i.ibb.co.com/ycfWy7G2/Screenshot-2025-05-01-170431.png"
+								title="Bi-Cycle Store"
+								description="An online shop for buying different brand bi-cycles"
+								githubLink="https://bi-cycle-store-client-red.vercel.app/"
+								detailsLink="/project-detail1"
+							/>
+
+							<ProjectCard
+								image="https://i.ibb.co.com/spVR8SHL/Screenshot-2025-04-05-011701.png"
+								title="MediMart"
+								description="Online shop for buying medicine from anywhere"
+								githubLink="https://medi-mart-client-umber.vercel.app/"
+								detailsLink="/project-detail2"
+							/>
 						</div>
+
+						{/* <div className="projects-list">
+							<AllProjects />
+						</div> */}
 					</div>
 					<div className="page-footer">
 						<Footer />

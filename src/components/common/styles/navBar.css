@@ -1,7 +1,7 @@
 @import "../../../data/styles.css";
 
 .nav-container {
-	margin: 0;
+	margin-bottom: 4rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
