@@ -51,7 +51,7 @@ const otherSkills = [
   },
   {
     name: "Tailwind CSS",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    logo: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png",
   },
   {
     name: "ShadCN UI",
@@ -59,7 +59,7 @@ const otherSkills = [
   },
   {
     name: "DaisyUI",
-    logo: "https://raw.githubusercontent.com/saadeghi/daisyui/master/logo-500.png",
+    logo: "https://images.seeklogo.com/logo-png/61/1/daisyui-logo-png_seeklogo-616852.png",
   },
   {
     name: "Material UI",

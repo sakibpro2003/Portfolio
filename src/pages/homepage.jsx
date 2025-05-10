@@ -134,19 +134,19 @@ const Homepage = () => {
 						<h3 className="featured-title">Featured Project</h3>
 						<div className="homepage-projects">
 							<ProjectCard
-								image="https://i.ibb.co.com/ycfWy7G2/Screenshot-2025-05-01-170431.png"
+								image="https://i.ibb.co.com/j9G74rdY/Screenshot-from-2025-05-08-12-58-52.png"
 								title="Bi-Cycle Store"
 								description="An online shop for buying different brand bi-cycles"
 								githubLink="https://bi-cycle-store-client-red.vercel.app/"
-								detailsLink="https://yourwebsite.com/project1"
+								detailsLink="/project-detail1"
 							/>
 
 							<ProjectCard
-								image="https://i.ibb.co.com/spVR8SHL/Screenshot-2025-04-05-011701.png"
+								image="https://i.ibb.co.com/G34P3sv4/Screenshot-from-2025-05-08-13-03-48.png"
 								title="MediMart"
 								description="Online shop for buying medicine from anywhere"
 								githubLink="https://medi-mart-client-umber.vercel.app/"
-								detailsLink="https://yourwebsite.com/project1"
+								detailsLink="/project-detail2"
 							/>
 						</div>
 

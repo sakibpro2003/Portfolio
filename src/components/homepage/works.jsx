@@ -38,7 +38,7 @@ const Works = () => {
 						</div>
 						<div className="work">
 							<img
-								src="https://i.ibb.co.com/p6q0kH7f/360-F-158341076-1-UVk-U7-KFK3f7yi-Tcu-Jswv-Zsqx-QFPNv6-F.jpg"
+								src="https://vectopus.com/_next/image?url=https%3A%2F%2Fcdn.vectopus.com%2Fleremy%2Ficons%2F56EE80358DDC%2FF76A101CCB8A%2Ficons-icons-conduct-conductor-conducting-music-leader-choir-musical-director-lead-stick-figure-pictogram-512.png&w=1920&q=75"
 								alt="twitter"
 								className="work-image"
 							/>
@@ -50,7 +50,7 @@ const Works = () => {
 						</div>
 						<div className="work">
 							<img
-								src="https://i.ibb.co.com/p6q0kH7f/360-F-158341076-1-UVk-U7-KFK3f7yi-Tcu-Jswv-Zsqx-QFPNv6-F.jpg"
+								src="https://www.creativefabrica.com/wp-content/uploads/2021/07/18/Mentor-trainer-icon-Graphics-14881824-4-580x386.jpg"
 								alt="twitter"
 								className="work-image"
 							/>

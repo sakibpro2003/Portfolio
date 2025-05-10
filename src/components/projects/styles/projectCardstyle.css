@@ -11,6 +11,7 @@
 /* General card styles */
 .project-card {
   display: flex;
+  padding: 6px;
   flex-direction: column;
   background-color: white;
   border-radius: 16px;
