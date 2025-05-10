@@ -29,10 +29,11 @@ const Contact = () => {
 
 		emailjs
 			.sendForm(
-				"service_7l2z4xq", // EmailJS Service ID
-				"template_it68jor", // EmailJS Template ID
+				process.env.REACT_APP_EMAIL_JS_SERVICE_ID, 
+				process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID, 
 				formRef.current,
-				"CbM8Wl-hmuNWvfQ2w" // EmailJS Public Key
+				process.env.REACT_APP_EMAIL_JS_PUBLIC_ID, 
+				
 			)
 			.then(() => {
 				toast.success("Message sent successfully!", { position: "top-right" });
